@@ -1,0 +1,45 @@
+.box-1{
+    background-color: darkorchid;
+    width: 300px;
+    height: 300px;
+}
+.box-2{
+  background-color: black;
+    width: 300px;
+    height: 300px;
+}
+.box-3{
+    background-color: darkmagenta;
+    width: 300px;
+    height: 300px;
+}
+.box-4{
+    background: rgb(123, 212, 200);
+    width: 300px;
+    height: 300px;
+}
+.box-5{
+    background: rgb(231, 255, 213);
+    width: 300px;
+    height: 300px;
+}
+.box-6{
+    background: rgb(122, 111, 222);
+    width: 300px;
+    height: 300px;
+}
+.box-7{
+    background: #AAA;
+    width: 300px;
+    height: 300px;
+}
+.box-8{
+    background: #F346;
+    width: 300px;
+    height: 300px;
+}
+.box-9{
+    background: #f3a5;
+    width: 300px;
+    height: 300px;
+}
