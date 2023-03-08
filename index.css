@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 }
 .titulo{
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Rubik Iso', cursive;
 }
 .link{
@@ -20,4 +20,8 @@ body{
     color: aliceblue;
     font-size: 25px;
     font-family: 'Titan One', cursive;
+}
+.nombre{
+    font-size: 40px;
+    font-family: 'Rubik Iso', cursive;
 }
