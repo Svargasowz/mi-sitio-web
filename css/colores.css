@@ -11,6 +11,16 @@
     flex-direction: row;
 }
 
+    .link{
+        text-decoration: none;
+        color: rgb(51, 54, 56);
+        background-color: rgba(44, 238, 238, 0.219);
+        box-shadow: 0 10px 25px rgb(255, 11, 255);
+        width: 70px;
+        height: 35px;
+        border-radius: 10%;
+    }
+
 
 .box-style{
     width: 300px;

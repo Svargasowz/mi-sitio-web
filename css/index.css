@@ -81,5 +81,5 @@ body{
     height: 58%;
     width: 35vh;
     border-radius: 100%;
-
+    box-shadow: 0 10px 25px rgb(248, 0, 236);
 }

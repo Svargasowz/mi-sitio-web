@@ -19,3 +19,12 @@ align-items: center;
 h1{
 
 }
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(24, 24, 24, 0.9);
+    box-shadow: 0 10px 25px rgb(255, 11, 11);
+    width: 70px;
+    height: 35px;
+    border-radius: 10%;
+}

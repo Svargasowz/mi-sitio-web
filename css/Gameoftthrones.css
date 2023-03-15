@@ -18,9 +18,18 @@ width: 100%;
 height: 100vh;
 justify-content: center;
 align-items: center;
-background: url(img/juego-de-tronos-personajes-en-trono-de-hierro_3840x2160_xtrafondos.com.jpg);
+background: url(https://images5.alphacoders.com/865/865686.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
+background-attachment: fixed;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(44, 238, 238, 0.219);
+    box-shadow: 0 10px 25px rgb(49, 47, 170);
+    width: 70px;
+    height: 35px;
+    border-radius: 10%;
 }
