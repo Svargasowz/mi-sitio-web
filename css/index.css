@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Titan One', cursive;
+    
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: rgb(255, 0, 119);
+    border-radius: 28px;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    box-shadow: 0 10px 25px rgb(255, 49, 228);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 40px;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgba(247, 22, 255, 0.24);
+    border-radius: 40px;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    background: url(https://i.pinimg.com/originals/d1/2d/73/d12d73f84931acf2f03c82b49a22211d.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.titulo{
+    font-size: 55px;
+    font-family: 'Rubik Iso', cursive;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Titan One', cursive;
+}
+.nombre{
+    font-size: 40px;
+    font-family: 'Rubik Iso', cursive;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 58%;
+    width: 35vh;
+    border-radius: 100%;
+
+}
