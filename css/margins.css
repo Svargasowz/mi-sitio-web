@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-align: justify;
+    font-size: 1.3em;
+    letter-spacing: -.1em;
+    word-wrap: .95em;
+    
+ }
+.box-1{
+    border: 2px solid rgb(64, 64, 64);
+    background-color: gold;
+}
+
+.box-2{
+    border: 2px dashed rgb(214, 21, 21);
+    background-color: coral;
+}
+.box-3{
+    border: 2px dotted rgb(255, 0, 221);
+    background-color: rgb(204, 133, 255);
+}
+.box-4{
+    border: 10px double rgb(34, 240, 188);
+    background-color: orchid;
+}
+.link{
+    text-decoration: none;
+    color: rgb(95, 88, 88);
+    background-color: rgba(214, 214, 214, 0.9);
+    box-shadow: 0 10px 25px rgb(255, 11, 11);
+    width: 70px;
+    height: 35px;
+    border-radius: 10%;
+}
