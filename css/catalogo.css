@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/bc/b3/4f/bcb34fa1b0037d761983441fb21842bc.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+nav{
+    margin: 3rem 0 8rem 0;
+    background-color: rgb(255, 55, 55, 1);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+nav a:hover{
+color: black;
+}
+.nuestros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 43, 43);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.producto{
+    display: grid;
+   
+    background-color: rgb(247, 46, 46);
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5%;
+    
+}
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
