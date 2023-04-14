@@ -1,0 +1,43 @@
+*{
+    font-family:sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table, th,td{
+    border-collapse: collapse;
+    padding: 10px 15px 8px 15px;
+    text-align: center;
+   
+}
+.dc-color{
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    color: white;
+}
+.de-color{
+    background-color: rgb(0, 255, 55);
+    color: white;
+}
+.di-color{
+    background-color: rgb(0, 255, 255);
+    color: white;
+}
+.df-color{
+    background-color: darkcyan;
+    color: white;
+}
+.dd-color{
+    background-color: yellow;
+    color: white;
+}
+.ds-color{
+    background-color: blueviolet;
+    color: white;
+}
+.dis{
+    background-color: aqua;
+    color: white;
+}
