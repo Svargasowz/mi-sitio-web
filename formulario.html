@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/formulario.css">
+<body>
+    
+
+    <form>
+        <label>ingrese el numero de documento</label>
+            <input type="text">
+        <select name="tipo-documento">
+            <option value="cc">Cedula de Ciudadania</option>
+            <option value="ti">Tarjeta de Identidad</option>
+            <option value="ti">Cedula de Estrangeria</option>
+            <option value="ti">Registro Civil</option>
+        </select>
+        <label>por favor, seleccione la clase</label>
+        <input type="radio" name="clase-vuelo">Primera Clase<br>
+        <input type="radio" name="clase-vuelo">Business Clas<br>
+        <input type="radio" name="clase-vuelo">Clase Turista<br>
+        <label>Por favor, selecciones los dias de vuelo</label>
+        <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de Abril del 2023<br>
+        <input type="checkbox" name="disponibilidad" value="2023-04-19">Jueves, 20 de Abril del 2023<br>
+        <input type="checkbox" name="disponibilidad" value="2023-04-19">Viernes, 21 de Abril del 2023<br>
+        <input type="checkbox" name="disponibilidad" value="2023-04-19">Sabado, 22 de Abril del 2023<br>
+        <input type="button" value="ENVIAR">
+    </form>
+</body>
+</html>
