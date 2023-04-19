@@ -8,11 +8,14 @@
 </head>
 <link rel="stylesheet" href="css/formulario.css">
 <body>
-    
-
-    <form>
+   <div class="main-box">
+    <div class="content-box">
+      <div class="form-title">
+            <span>Avianca-Tiquetes</span>
+        </div>
+            <form>
         <label>ingrese el numero de documento</label>
-            <input type="text">
+        <input type="text">
         <select name="tipo-documento">
             <option value="cc">Cedula de Ciudadania</option>
             <option value="ti">Tarjeta de Identidad</option>
@@ -20,15 +23,20 @@
             <option value="ti">Registro Civil</option>
         </select>
         <label>por favor, seleccione la clase</label>
-        <input type="radio" name="clase-vuelo">Primera Clase<br>
-        <input type="radio" name="clase-vuelo">Business Clas<br>
-        <input type="radio" name="clase-vuelo">Clase Turista<br>
-        <label>Por favor, selecciones los dias de vuelo</label>
-        <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de Abril del 2023<br>
-        <input type="checkbox" name="disponibilidad" value="2023-04-19">Jueves, 20 de Abril del 2023<br>
-        <input type="checkbox" name="disponibilidad" value="2023-04-19">Viernes, 21 de Abril del 2023<br>
-        <input type="checkbox" name="disponibilidad" value="2023-04-19">Sabado, 22 de Abril del 2023<br>
-        <input type="button" value="ENVIAR">
+           <input type="radio" name="clase-vuelo">Primera Clase<br>
+           <input type="radio" name="clase-vuelo">Business Clas<br>
+           <input type="radio" name="clase-vuelo">Clase Turista<br>
+           <label>Por favor, selecciones los dias de vuelo</label>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Jueves, 20 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Viernes, 21 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Sabado, 22 de Abril del 2023<br>
+           <input class="boton" type="button" value="ENVIAR">
     </form>
+        
+     </div>
+</div>
+    
+    <a class="link" href="index.html">volver</a>
 </body>
 </html>
