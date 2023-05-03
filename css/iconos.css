@@ -19,21 +19,24 @@ body{
     width: 230px;
     height: 100vh;
     border: 1px solid rgb(128, 14, 153);
+    background-color: purple;
 }
 
 .lateral:hover {
     overflow-y: scroll;
-    
+    background-color: purple;
 }
 
 .lateral.close {
     width: min-content;
     overflow-y: hidden;
+    background-color: purple;
   
 }
 
 .lateral.close > ul > li > p {
     display: none;
+    background-color: purple;
 }
 
 .lateral > .btn-menu {
@@ -66,11 +69,12 @@ body{
 
 .lateral > ul > li > i {
     color: rgb(215, 213, 213);
+    background-color: purple;
 }
 
 .lateral > ul > li > p {
     font-size: 14px;
-    
+    background-color: purple;
 }
 p{
     color: rgb(200, 176, 176);
