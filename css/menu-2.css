@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.fondo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    background:url(https://i.pinimg.com/564x/ff/2a/ed/ff2aed5fffbc9dbf518edd9a872b1cb4.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    flex-direction: column;
 }
 .bar-menu{
     color: rgb(255, 255, 255);
@@ -18,8 +32,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(48, 48, 48, 0.951);
+    background-color: rgba(230, 173, 18, 0.753);
     height: 80px;
+    -moz-box-shadow: 0 4px 4px rgb(255, 0, 0);
+    -webkit-box-shadow: 0 4px 4px rgb(255, 0, 0);
+    box-shadow: 0 4px 4px rgba(231, 177, 102, 0.527);
 }
 .main-menu{
     list-style: none;
@@ -38,7 +55,7 @@ a{
 }
 li:hover{
     cursor: pointer;
-    background-color: black;
+    background-color: rgba(230, 145, 18, 0.76);;
 }
 p{
     margin: 120px 60px;
@@ -46,26 +63,31 @@ p{
     font-size: 1.2em;
     line-height: 1.3em;
 }
-@media only screen and (max-width:1152px) {
-    /*.main-menu{
-        background-color: rgb(96, 96, 96,.9);
-        margin-top: 81px;
-        padding: 0;
-    }*/
+.imagen{
+    margin-left: 50px;
+ height: 79px;
+    
+}
+@media only screen and (max-width:868px) {
     .main-nav{
-        height: 80px;;
+        height: 80px;
+    }
+    .imagen{
+        display: none;
     }
     .main-menu{
         display: none; 
     }
     .main-menu-visible{
         display: block;
-        background-color: rgba(48, 48, 48, 0.951);
+        background-color: rgb(255, 187, 0);
         /* margin-top: 81px; */
         padding: 0;
     }
+    .imagen-visible{
+        display: block;
+    }
     .menu-1{
-        
         width: 100%;
         display: block;
         text-align: center;
