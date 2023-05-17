@@ -27,16 +27,27 @@
     left: 30px;
     cursor: pointer;
 }
+.bar-mene{
+    font-size: 2.2em;
+    position: absolute;
+    visibility: hidden;
+    top: 15px;
+    left: 65px;
+    height: 68px;
+
+    color: white;
+    
+}
 .main-nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(230, 173, 18, 0.753);
+    background-color: rgba(199, 137, 3, 0.788);
     height: 80px;
     -moz-box-shadow: 0 4px 4px rgb(255, 0, 0);
     -webkit-box-shadow: 0 4px 4px rgb(255, 0, 0);
-    box-shadow: 0 4px 4px rgba(231, 177, 102, 0.527);
+    box-shadow: 0 4px 4px rgba(235, 200, 45, 0.664);
 }
 .main-menu{
     list-style: none;
@@ -55,7 +66,7 @@ a{
 }
 li:hover{
     cursor: pointer;
-    background-color: rgba(230, 145, 18, 0.76);;
+    background-color: rgba(231, 215, 191, 0.76);;
 }
 p{
     margin: 120px 60px;
@@ -64,13 +75,21 @@ p{
     line-height: 1.3em;
 }
 .imagen{
-    margin-left: 50px;
- height: 79px;
-    
+margin-left: 50px;
+height: 79px;
+z-index: 5;
+}
+.main-menu-visible1{
+    display: block;
+    background-color: rgba(199, 137, 3, 0.644);
+    /* margin-top: 81px; */
+    padding: 0;
+    z-index: 3;
 }
 @media only screen and (max-width:868px) {
     .main-nav{
         height: 80px;
+        background-color: rgb(199, 137, 3);
     }
     .imagen{
         display: none;
@@ -78,11 +97,14 @@ p{
     .main-menu{
         display: none; 
     }
+    
     .main-menu-visible{
         display: block;
-        background-color: rgb(255, 187, 0);
+        background-color: rgba(199, 137, 3, 0.644);
         /* margin-top: 81px; */
         padding: 0;
+        z-index: 3;
+
     }
     .imagen-visible{
         display: block;
@@ -97,9 +119,12 @@ p{
         padding: 0;
     }
     a:hover{
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(253, 218, 142, 0.527);
     }
     .bar-menu{
+        visibility: visible;
+    }
+    .bar-mene{
         visibility: visible;
     }
 }

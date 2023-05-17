@@ -1,14 +1,8 @@
-let barMenu = document.getElementById("barMenu");
-let main_Menu = document.getElementById("mainMenu"); 
+let hambuerguerMenu = document.getElementById("hambuerguerMenu");
+let menumenu = document.getElementById("menumenu")
 
-barMenu.addEventListener("click", function() {
-    if (main_Menu.classList.contains("main-menu")){
-        main_Menu.classList.add("main-menu-visible");
-        main_Menu.classList.remove("main-menu");
-    }
-        else{
-            main_Menu.classList.remove("main-menu-visible");
-            main_Menu.classList.add("main-menu");
-        }
-        
-    });
+hambuerguerMenu.addEventListener("click", function(){
+    if(mainMenu.classList)
+menumenu.classList.add("main-menu-block");
+menumenu.classList.remove("menumenu")
+});
