@@ -1,15 +1,19 @@
 *{
     font-family: 'Lilita One', cursive;
 }
-.toglee-box-off{
+.toggle-box-off{
     width: 250px;
     height: 120px;
     background-color: rgb(3, 255, 221);
     border-radius: 55px;
-    transition: background-color 900ms;
+    transition: background-color 600ms;
+    cursor: pointer;
 
 }
-.toglee-box-on{
+.toggle-box-on{
+    width: 250px;
+    height: 120px;
+    border-radius: 55px;
     cursor: pointer;
     background-color: rgb(94, 223, 169);
 
@@ -22,7 +26,7 @@
     top: -32px;
     border-radius: 55px;
     background-color: white;
-    transition: all 700ms;
+    transition: all 600ms;
 
 }
 .choice-box-on{
