@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:repeat(7,100px);
+    grid-template-rows: repeat(6,100px);
+    grid-gap: 10px 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.25);
+    background-color: aquamarine;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 246, 250);
+    border: 1px solid rgb(0, 0, 0);
+}
+.contenedor .inicio{
+    grid-column-start: 4;
+}
+.dia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.25);
+    background-color: rgba(127, 255, 212, 0.664);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.festivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgba(216, 112, 147, 0.815);
+}
