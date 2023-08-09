@@ -11,7 +11,7 @@
     align-content: center;
     justify-content: center;
     grid-template-columns:repeat(7,100px);
-    grid-template-rows: repeat(6,100px);
+    grid-template-rows: repeat(7,100px);
     grid-gap: 10px 20px;
 }
 .box{
@@ -55,4 +55,9 @@
     color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     background-color: rgba(216, 112, 147, 0.815);
+}
+.titulo{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    text-align: center;
 }
