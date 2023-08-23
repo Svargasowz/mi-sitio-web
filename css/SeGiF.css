@@ -10,7 +10,7 @@ background: linear-gradient(to right, #f3d5ea, #f7bae7, #e3c9f4, #cfc9ff); /* W3
 
 display: grid;
 grid-template: "empty-left main-page empty-right" 100vh /
-minmax(50px, 1fr) minmax(900px, 1200px) minmax(50px, 1fr);
+minmax(30px, 1fr) minmax(900px, 1200px) minmax(30px, 1fr);
 }
 
 ul{
@@ -52,6 +52,15 @@ a{
     justify-content: space-between;
     padding: 10px 0;
 }
+a:hover{
+    transition: 1s all ease;
+    color: rgb(206, 0, 248);
+    transition: 2s;
+    border-radius: 10px;
+}
+:hover{
+    border-radius: 20px;
+}
 .fa-bars{
     height: 200px;
 }
@@ -81,7 +90,62 @@ width: 50px;
     grid-area: main-page;
     margin-top: -10px;
 }
-
+/*========================================================================================================================================*/
+.img-article-1 {
+    background: url(/img/primero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s; 
+        
+    
+}
+.img-article-1:hover{
+    transform: scale(1.1); 
+}
+.img-article-2{
+    background: url(/img/segundo-11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+.img-article-2:hover{
+    transform: scale(1.1); 
+}
+.img-article-3{
+    background: url(/img/tercer.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.img-article-3:hover{
+    transform: scale(1.1); 
+}
+.img-article-4{
+    background: url(/img/cuarto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+.img-article-4:hover{
+    transform: scale(1.1); 
+}
+.img-article-5{
+    transition: transform .2s;
+}
+.img-article-5:hover{
+    transform: scale(1.1); 
+    
+}
+.img-article-6{
+    transition: transform .2s;
+}
+.img-article-6:hover{
+    transform: scale(1.1); 
+}
+/*========================================================================================================================================*/
 header {
     margin-top: 50px;
     display: grid;
@@ -151,7 +215,7 @@ header {
 }
 
 .img-article {
-    height: 350px;
+    height: 300px;
     background-color: black;
     border-radius: 8px;
 }
@@ -167,7 +231,7 @@ header {
     text-align: justify;
 }
 /*tablet*/
-
+/*========================================================================================================================================*/
 @media only screen and (min-width: 760px) and (max-width: 978px){
     .menu-btn{
         display: block;
@@ -186,6 +250,30 @@ header {
         border-bottom-right-radius: 27px;
         font-family:  'Titan One', cursive;
     }
+    .img-article-1 {
+        background: url(/img/primero.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-article-2{
+        background: url(/img/segundo-11.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-article-3{
+        background: url(/img/tercer.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-article-4{
+    }
+    .img-article-5{
+    }
+    .img-article-6{
+    }
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
     }
@@ -197,7 +285,7 @@ header {
         margin-right: 30px;
     }
 
-
+/*========================================================================================================================================*/
     body {
         display: grid;
     grid-template: "empty-left main-page empty-right" 100vh /
@@ -228,7 +316,7 @@ header {
         border-radius: 8px;
     }
     .img-article {
-        height: 250px;
+        height: 300px;
         background-color: black;
         border-radius: 8px;
     }
@@ -265,6 +353,60 @@ header {
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
     }
+    .img-article-1 {
+        background: url(/img/primero.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform .2s; 
+            
+        
+    }
+    .img-article-1:hover{
+        transform: scale(1.03); 
+    }
+    .img-article-2{
+        background: url(/img/segundo-11.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform .2s;
+    }
+    .img-article-2:hover{
+        transform: scale(1.03); 
+    }
+    .img-article-3{
+        background: url(/img/tercer.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    .img-article-3:hover{
+        transform: scale(1.03); 
+    }
+    .img-article-4{
+        background: url(/img/cuarto.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform .2s;
+    }
+    .img-article-4:hover{
+        transform: scale(1.03); 
+    }
+    .img-article-5{
+        transition: transform .2s;
+    }
+    .img-article-5:hover{
+        transform: scale(1.03); 
+        
+    }
+    .img-article-6{
+        transition: transform .2s;
+    }
+    .img-article-6:hover{
+        transform: scale(1.03); 
+    }
     .nav-main ul.nav-menu li{
         font-size: 20px;
         padding: 12px;
@@ -272,6 +414,7 @@ header {
     .nav-main form.nav-search{
         margin-right: 30px;
     }
+    /*========================================================================================================================================*/
     body {
         display: grid;
         grid-template: "empty-left main-page empty-right" 100vh /
