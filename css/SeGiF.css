@@ -92,7 +92,7 @@ width: 50px;
 }
 /*========================================================================================================================================*/
 .img-article-1 {
-    background: url(/img/primero.jpeg);
+    background: url("../img/primero.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ width: 50px;
     transform: scale(1.1); 
 }
 .img-article-2{
-    background: url(/img/segundo-11.jpg);
+    background: url("../img/segundo-11.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,7 @@ width: 50px;
     transform: scale(1.1); 
 }
 .img-article-3{
-    background: url(/img/tercer.jpeg);
+    background: url("../img/tercer.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -123,7 +123,7 @@ width: 50px;
     transform: scale(1.1); 
 }
 .img-article-4{
-    background: url(/img/cuarto.jpeg);
+    background: url("../img/cuarto.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,19 +251,19 @@ header {
         font-family:  'Titan One', cursive;
     }
     .img-article-1 {
-        background: url(/img/primero.jpeg);
+        background: url("../img/primero.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .img-article-2{
-        background: url(/img/segundo-11.jpg);
+        background: url("../img/segundo-11.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .img-article-3{
-        background: url(/img/tercer.jpeg);
+        background: url("../img/tercer.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -354,7 +354,7 @@ header {
         transform: translateX(-20px);
     }
     .img-article-1 {
-        background: url(/img/primero.jpeg);
+        background: url("../img/primero.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -366,7 +366,7 @@ header {
         transform: scale(1.03); 
     }
     .img-article-2{
-        background: url(/img/segundo-11.jpg);
+        background: url("../img/segundo-11.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -376,7 +376,7 @@ header {
         transform: scale(1.03); 
     }
     .img-article-3{
-        background: url(/img/tercer.jpeg);
+        background: url("../img/tercer.jpeg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -385,7 +385,7 @@ header {
         transform: scale(1.03); 
     }
     .img-article-4{
-        background: url(/img/cuarto.jpeg);
+        background: url("../img/cuarto.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
