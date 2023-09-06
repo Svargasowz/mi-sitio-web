@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-content{
+    display: grid;
+    grid-template:"main-menu header " 100px
+                   "main-menu main-content" /
+                   320px     1fr;
+
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+}
+header{
+    grid-area: header;
+    position: fixed;
+    height: 100px;
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+}
+.main-menu{
+    grid-area: main-menu;
+    background-color: rgb(101, 114, 232);
+    position: fixed;
+    height: 100vh;
+    width: 320px;
+}
+.logo{
+    height: 160px;
+    margin: 20px 20px;
+    width: 280px;
+    border-bottom: 1px solid white;
+
+}
+.box-menu{
+    list-style: none;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box-menu > li{
+    line-height: 60px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.text-item-menu{
+    margin-left: 12px;
+}
+
+.main-content{
+    grid-area:main-content;
+    padding-top: 50px;
+    display: grid;
+    grid-template:"empty-left mi-form empty-right"/
+                    1fr 1150px 1fr ;
+}
+.mi-form{
+    grid-area: mi-form;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+}
+.box-input{
+    margin-top: 70px;
+}
+input[type="text"]{
+    width: 550px;
+    height: 60px;
+    border: gray;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+
+
