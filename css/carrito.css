@@ -48,6 +48,9 @@ img{
 }
 .box-info-producto{
     grid-area: box-info-product;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0 25px;
 }
 .box-buttons-cantidad{
     font-size: 1.3em;
@@ -75,6 +78,25 @@ img{
 }
 .box-plus{
     border-bottom-right-radius: 10px;
-    border-top-right-radius:10px ;
+    border-top-right-radius:10px;
     background-color: rgb(224, 222, 218);
+}
+.book-title{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.book-descripcion{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.precio-unidad{
+font-size: 1.6em;
+font-weight: 600;
+}
+.book-autor,.info-precio,.cover-type{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
