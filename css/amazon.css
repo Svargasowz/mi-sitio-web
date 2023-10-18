@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Shadows Into Light', cursive;
+}
+.log{
+    width: 500px;
+   margin-top: 9px;
+   margin-left: 30px;
+}
+.logo{
+    background-color: rgb(19, 35, 33);
+}
+.tipos,select{
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 190px;
+    height: 40px;
+    font-size: 20px;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    background-color: rgb(214, 214, 214);
+}
+
+.lugar{
+    position: absolute;
+    
+    margin-left: 20px;
+    width: 140px;
+}
+.idioma{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 20px;
+    width: 140px;
+}
+.log{
+    width: 140px;
+}
+.buscador,input{
+    margin-top: -14px;
+    width: 1010px;
+    height: 38px;
+    position: absolute;
+    margin-left: 121px;
+    font-size: 20px;
+    z-index: 9;
+}
+.lupaa{
+    color: rgb(0, 0, 0);
+    margin-top: -28px;
+    position: absolute;
+    margin-left: 1255px;
+    background-color: rgb(246, 202, 70);
+    width: 17px;
+    height: 19px;
+    padding: 10px;
+    z-index: 10;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+  
+}
+.buscar{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+}
+.lugar{
+    color: white;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.LENGUAJE{
+    position: absolute;
+    margin-left: 1380px;
+    margin-top: -9px;
+    color: white;
+}
+.si{
+    position: absolute;
+    width: 30px;
+    margin-top: -3px;
+    height: 20px;
+    margin-left: 1340px;
+}
+.abajo{
+    position: absolute;
+    margin-left: 1406px;
+    margin-top: -1px;
+    color: white;
+}
+.txt{
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: -40px;
+    height: 200px;
+    color: white;
+}
+.abajo2{
+    position: absolute;
+    margin-left: 1580px;
+    margin-top: -5px;
+    color: white;
+}
+
