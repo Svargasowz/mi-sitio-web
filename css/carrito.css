@@ -28,6 +28,11 @@ font-family: 'Shadows Into Light', cursive;
     margin: 20px;
     font-size: 1.4em;
 }
+body{
+justify-content: center;
+display: flex;
+align-items: center;
+}
 #numeroProductos{
     font-weight: 500;
     font-size: 1.1em;
