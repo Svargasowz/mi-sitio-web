@@ -1,116 +1,288 @@
-*{
-    margin: 0;
-    padding:0;
-    font-family: 'Shadows Into Light', cursive;
-}
-.log{
-    width: 500px;
-   margin-top: 9px;
-   margin-left: 30px;
-}
-.logo{
-    background-color: rgb(19, 35, 33);
-}
-.tipos,select{
-    position: absolute;
-    margin-top: -28px;
-    margin-left: 190px;
-    height: 40px;
-    font-size: 20px;
-    border-bottom-left-radius:10px ;
-    border-top-left-radius:10px ;
-    background-color: rgb(214, 214, 214);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-.lugar{
-    position: absolute;
-    
-    margin-left: 20px;
-    width: 140px;
+html {
+  scroll-behavior: smooth;
 }
-.idioma{
-    position: absolute;
-    margin-top: -17px;
-    margin-left: 20px;
-    width: 140px;
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.log{
-    width: 140px;
+
+a:hover {
+  color: #ddd;
 }
-.buscador,input{
-    margin-top: -14px;
-    width: 1010px;
-    height: 38px;
-    position: absolute;
-    margin-left: 121px;
-    font-size: 20px;
-    z-index: 9;
+
+/* Header or Navbar */
+header {
+    width: 100%;
+    background-color: #000000;
 }
-.lupaa{
-    color: rgb(0, 0, 0);
-    margin-top: -28px;
-    position: absolute;
-    margin-left: 1255px;
-    background-color: rgb(246, 202, 70);
-    width: 17px;
-    height: 19px;
-    padding: 10px;
-    z-index: 10;
-    border-bottom-right-radius:10px ;
-    border-top-right-radius:10px ;
+
+.navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 500px;
+    /*max-width: 90px;*/
+    height: 70px;
+    position: relative;
+    margin-top: 10px;
+    width: 128px;
+    left: -250px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+.address .deliver {
+  margin-left: 20px;
+  font-size: 0.75rem;
+  color: #ccc;
+  position: relative;
+  left: -150px;
+}
+
+.address .map-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -150px;
+}
+
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  position: relative;
+  left: -90px;
+}
+
+
+
+.select-search  {
+  background: #f3f3f3;
+  width: 80px;
+  text-align: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: none;
+}
+
+.search-input {
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+/*.search-input,.select-search,.nav-search:focus{
+  border: 1px solid orange;
+}*/
+
+.nav-search{
+  display: flex;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.nav-search:focus-within{
+  border: 3px solid orange;
+}
+
+.nav-search input{
+  flex: 1;
+  border: none;
+  padding: 2px;
+
+}
+
+.search-icon {
+  max-width: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background: #febd68;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.sign-in p,
+.returns p {
+    font-size: 0.75rem;
+}
+
+.sign-in,
+.returns span {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.cart {
+  display: flex;
+  position: relative;
   
 }
-.buscar{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    position: absolute;
+
+.cart .cart-icon {
+  font-size: 2.5rem;
+  position: relative;
+  right: -190px;
+}
+
+.cart p {
+  margin-top: 20px;
+  font-weight: 500;
+  position: relative;
+  right: -190px;
+}
+
+.banner {
+  padding: 10px 20px;
+  background: #222f3d;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.bandera{
+    width: 40px;
+    display: flex;
+    position: relative;
+    padding: 2px;
+}
+.cambiar_idioma{
+    display: flex;
+    position: relative;
+}
+.panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+  left: -240px;
+}
+
+.panel span {
+  margin-right: 7px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+  flex-grow: 1;
+  margin-left: 15px;
+  position: relative;
+  left: -230px;
+}
+
+.links a {
+  padding: 10px 0;
+}
+.returns{
+    width: 200PX;
+    position: relative;
+    right: -117px;
     
 }
-.lugar{
-    color: white;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: -50px;
-    font-size: 20px;
+
+.sign-in{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+    right: -50px;
 }
-.LENGUAJE{
-    position: absolute;
-    margin-left: 1380px;
-    margin-top: -9px;
-    color: white;
+.icono {
+    width: 40px;
+    display: flex;
+    position: relative;
+    padding: 2px;
 }
-.si{
-    position: absolute;
-    width: 30px;
-    margin-top: -3px;
-    height: 20px;
-    margin-left: 1340px;
+.carro{
+    margin-bottom: 20PX;
+    width: 40px;
+    display: flex;
+    position: relative;
+    padding: 2px;
 }
-.abajo{
-    position: absolute;
-    margin-left: 1406px;
-    margin-top: -1px;
-    color: white;
-}
-.txt{
-    position: absolute;
-    margin-left: 1480px;
-    margin-top: -40px;
-    height: 200px;
-    color: white;
-}
-.abajo2{
-    position: absolute;
-    margin-left: 1580px;
-    margin-top: -5px;
-    color: white;
-}
-.box-modal{
+/*==========================================================================================================================*/
+
+main{
+    width: 100%;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100vh;
     display: flex;
-}
-
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+  }
+  .modal{
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+    height: auto;
+    background: #f3f3f3;
+  }
+ 
+  .product-image{
+    display: flex;
+    margin: 20px;
+    width: 450px;
+  }
+  .img_modal{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  }
+  .close{
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    font-size: 1.4em;
+    border: 3px solid rgb(44, 176, 224, 0.3);
+    border-radius: 4px;
+    line-height: 1.1em;
+    padding: 1px 4px 0 1;
+  }
+  
+  .product-info{
+    display: flex;
+    margin-left: 600px;
+    padding: 12px;
+  }
+  
+  .info p{
+    display: flex;
+    margin-left: 600px;
+    padding: 12px;
+  }
+  
