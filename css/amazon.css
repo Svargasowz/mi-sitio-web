@@ -234,6 +234,7 @@ header {
 }
 
 .textoo{
+  margin-left: -100px;
   margin-top: -500px;
   position:absolute;
 }
