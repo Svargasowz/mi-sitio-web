@@ -232,6 +232,13 @@ header {
     position: relative;
     padding: 2px;
 }
+.product-actions{
+
+}
+.textoo{
+  margin-top: -500px;
+  position:relative;
+}
 /*==========================================================================================================================*/
 
 main{
