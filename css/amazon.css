@@ -38,7 +38,7 @@ header {
 }
 
 .nav-logo img {
-    width: 400px;
+    width: 350px;
     /*max-width: 90px;*/
     height: 70px;
     position: relative;
@@ -47,8 +47,9 @@ header {
     left: -160px;
     padding: 0px 0px 10px 0px;
 }
-
-
+.logooo{
+  left: 10px;
+}
 .address .deliver {
   margin-left: 20px;
   font-size: 0.75rem;
@@ -88,7 +89,7 @@ header {
 
 .search-input {
     position: relative;
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
     border: none;
     outline: none;
@@ -157,7 +158,7 @@ header {
   margin-top: 20px;
   font-weight: 500;
   position: relative;
-  right: -150px;
+  right: -100px;
 }
 
 .banner {
@@ -174,6 +175,7 @@ header {
     padding: 2px;
 }
 .cambiar_idioma{
+  margin-left: -70px;
     display: flex;
     position: relative;
 }
@@ -208,7 +210,7 @@ header {
 .returns{
     width: 200PX;
     position: relative;
-    right: -117px;
+    right: -90px;
     
 }
 
@@ -217,7 +219,7 @@ header {
     text-overflow: ellipsis;
     position: relative;
     padding: 0px 0px 0px 20px;
-    right: -50px;
+    right: -20px;
 }
 .icono {
     width: 40px;
@@ -234,51 +236,121 @@ header {
 }
 
 .textoo{
-  margin-left: -100px;
-  margin-top: -500px;
+  margin-left: 470px;
+  margin-top: -630px;
+  color: black;
+  font-size: 1.1em;
   position:absolute;
+  width: 300px;
+}
+.textoo2{
+  margin-left: 1080px;
+  margin-top: -518px;
+  color: rgb(156, 156, 156);
+  font-size: 0.8em;
+  position:absolute;
+  width: 300px;
+}
+/*========================================*/
+.super a{
+  margin-top: 15px;
+  margin-bottom: -9px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: rgb(92, 92, 92);
+}
+.super{
+  display: flex;
+  margin: 10px;
+  
+}
+.videos{
+  margin-right:-10px;
+}
+.imagen{
+  position: relative;
+  border-bottom: 2px solid rgb(255, 157, 0);
+  
+}
+.super li{
+display: flex;
+cursor: pointer;
+
 }
 /*==========================================================================================================================*/
 
 main{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0,0,0,0.7);
-  }
-  .modal{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.7);
+}
+.modal{
+  margin-top:79px ;
+  margin-left: 50px;
     border-radius: 10px;
     position: relative;
-    width: 80%;
-    height: auto;
-    background: #f3f3f3;
+    width: 95%;
+    
+    height: 700px;
+    background: #ffffff;
   }
- 
+  .contenedor{
+      margin-left: 160px;
+  }
   .product-image{
+    
     display: flex;
-    margin: 20px;
+    position: relative;
+    margin-left: 230px;
+    margin-top:20px ;
+    margin-bottom:5px ;
+    margin-right: 10px;
     width: 450px;
+    height: auto;
+  }
+  .raya{
+    margin-left: 45px;
+    margin-right: 45px;
   }
   .img_modal{
-  display: flex;
-  width: 100%;
-  height: 100%;
+    border-radius: 30px;
+    display: flex;
+    width: 600px;
+    height: auto;
   }
-  .cart
-  .close{
-    top: 5px;
-    right: 5px;
+  
+  .closer{
+    width: 27px;
+    height: 27px;
+    top: 2px;
+    margin: 1px;
+    right: 2px;
     position: absolute;
     font-size: 1.4em;
     border: 3px solid rgb(44, 176, 224, 0.3);
     border-radius: 4px;
     line-height: 1.1em;
     padding: 1px 4px 0 1;
+  }
+  .clo{
+    width: 27px;
+    height: 27px;
+    top: 2px;
+    margin: 1px;
+    right: 2px;
+    position: absolute;
+    font-size: 1.4em;
+    border: 3px solid rgb(44, 176, 224, 0.3);
+    border-radius: 4px;
+    line-height: 1.1em;
+    padding: 1px 4px 0 1;
+    
   }
   
   .product-info{
@@ -293,3 +365,54 @@ main{
     padding: 12px;
   }
   
+  .primero{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .segunda{
+    display: flex;
+    position: relative;
+    width: 50px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .tercer{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .cuarta{
+    width: 50px;
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .quinta{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .imagenes{
+    display: flex;
+    width: 250px;
+    
+    margin-top: -480px;
+    margin-left: 1080px;
+    
+  }
+  #modal{
+    display: none;
+  }
