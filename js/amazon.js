@@ -5,8 +5,16 @@ var n2 = document.getElementById("n2")
 var n3 = document.getElementById("n3")
 var n4 = document.getElementById("n4")
 var n5 = document.getElementById("n5")
+var n6 = document.getElementById("n6")
+var n7 = document.getElementById("n7")
+var n8 = document.getElementById("n8")
+var n9 = document.getElementById("n9")
+var n10 = document.getElementById("n10")
 var img_modal = document.getElementById("img_modal")
+var imagen_prin = document.getElementById("imagen_prin")
 var abrir = document.getElementById("abrir")
+var puesto = document.getElementById("puesto")
+var quitado = document.getElementById("quitado")
 
 abrir.addEventListener("click",function(){
     modal.style.display="block";
@@ -42,3 +50,28 @@ n5.addEventListener("click",function(){
     img_modal.src = n5.src
     setActive(n5)
 })
+n6.addEventListener("click",function(){
+    imagen_prin.src = ""
+    imagen_prin.src = n6.src
+    setActive(n6)
+    })
+    n7.addEventListener("click",function(){
+        imagen_prin.src = ""
+        imagen_prin.src = n7.src
+        setActive(n7)
+        })
+    n8.addEventListener("click",function(){
+        imagen_prin.src = ""
+        imagen_prin.src = n8.src
+        setActive(n8)
+    })
+    n9.addEventListener("click",function(){
+        imagen_prin.src = ""
+        imagen_prin.src = n9.src
+        setActive(n9)
+    })
+    n10.addEventListener("click",function(){
+        imagen_prin.src = ""
+        imagen_prin.src = n10.src
+        setActive(n10)
+    })

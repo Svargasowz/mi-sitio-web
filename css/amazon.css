@@ -16,9 +16,7 @@ a {
   color: #fff;
 }
 
-a:hover {
-  color: #ddd;
-}
+
 
 /* Header or Navbar */
 header {
@@ -244,7 +242,7 @@ header {
   width: 300px;
 }
 .textoo2{
-  margin-left: 1080px;
+  margin-left: 1030px;
   margin-top: -518px;
   color: rgb(156, 156, 156);
   font-size: 0.8em;
@@ -291,11 +289,11 @@ main{
   background-color: rgba(0,0,0,0.7);
 }
 .modal{
-  margin-top:79px ;
-  margin-left: 50px;
+  margin-top:39px ;
+  margin-left: 140px;
     border-radius: 10px;
     position: relative;
-    width: 95%;
+    width: 85%;
     
     height: 700px;
     background: #ffffff;
@@ -355,16 +353,109 @@ main{
   
   .product-info{
     display: flex;
-    margin-left: 600px;
+    margin-left: 420px;
     padding: 12px;
   }
   
   .info p{
     display: flex;
-    margin-left: 600px;
+    margin-left: 100px;
     padding: 12px;
   }
   
+  #modal{
+    display: none;
+  }
+  
+  
+  /*INICIO DE PAGINA COMO SE VE */
+  .imagen_prin{
+    width: 540px;
+    position: relative;
+    left: 150px;
+    display: flex;
+    
+  }
+  .tienda{
+    
+      display: flex;
+      position: relative ;
+      width: 350px;
+      font-size: 19px;
+      color: rgb(8, 169, 219);
+      bottom: 580px;
+      left: 800px;
+  }
+  .tienda_text{
+    color: rgb(8, 169, 219);
+  }
+  .tienda_text:hover{
+    color: rgb(255, 136, 0);
+    text-decoration: solid;
+  }
+  .text-init{
+    display: flex;
+    position: relative ;
+    width: 350px;
+    font-size: 28px;
+    bottom: 580px;
+    left: 800px;
+  }
+  .sub-imagenes{
+   display: flex;
+     width: 250px;
+     position: relative;
+     bottom: -50px;
+     margin-left: 300px;
+   }
+   .primero_segunda{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .segunda_segunda{
+    display: flex;
+    position: relative;
+    width: 50px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .tercer_segunda{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .cuarta_segunda{
+    width: 50px;
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .quinta_segunda{
+    width: 50px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 8px;
+    margin: 5px;
+  }
+ /*ESTO son las imagenes del modal*/
+ .imagenes{
+   display: flex;
+   width: 250px;
+   margin-top: -480px;
+   margin-left: 900px;
+   
+ }
   .primero{
     width: 50px;
     display: flex;
@@ -404,15 +495,4 @@ main{
     border: 1px solid rgb(165, 165, 165);
     border-radius: 8px;
     margin: 5px;
-  }
-  .imagenes{
-    display: flex;
-    width: 250px;
-    
-    margin-top: -480px;
-    margin-left: 1080px;
-    
-  }
-  #modal{
-    display: none;
   }
