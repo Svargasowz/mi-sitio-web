@@ -23,9 +23,11 @@ header {
 }
 .inicio{
   overflow-x: hidden;
-  margin-top: 00px;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-left: 90px;
+  
 }
+
 .navbar {
     height: 60px;
     display: flex;
@@ -179,34 +181,7 @@ header {
     display: flex;
     position: relative;
 }
-.panel {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-  position: relative;
-  left: -240px;
-}
 
-.panel span {
-  margin-right: 7px;
-}
-
-.links {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 15px;
-  flex-grow: 1;
-  margin-left: 15px;
-  position: relative;
-  left: -230px;
-}
-
-.links a {
-  padding: 10px 0;
-}
 .returns{
     width: 200PX;
     position: relative;
@@ -277,6 +252,50 @@ display: flex;
 cursor: pointer;
 
 }
+/*prueba*/
+.banner {
+  padding: 10px 20px;
+  background: #222f3d;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.banner-content {
+  margin: 0 auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel {
+  max-width: 1280px;
+  display: flex;
+  margin-left: -80px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.panel span {
+  margin-right: 7px;
+}
+.subgato{
+  width: 10px;
+  height: 10px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.links a {
+  padding: 10px 0;
+}
+
+
+/*fin prueba*/
 /*==========================================================================================================================*/
 
 main{
@@ -291,7 +310,7 @@ main{
   background-color: rgba(0,0,0,0.7);
 }
 .modal{
-  margin-top:39px ;
+  margin-top:69px ;
   margin-left: 140px;
     border-radius: 10px;
     position: relative;
@@ -388,10 +407,12 @@ main{
       font-size: 19px;
       color: rgb(8, 169, 219);
       bottom: 580px;
-      left: 800px;
+      left: 788px;
   }
   .tienda_text{
     color: rgb(8, 169, 219);
+    margin-top: -55px;
+    font-size: 15px;
   }
   .tienda_text:hover{
     color: rgb(255, 136, 0);
@@ -400,19 +421,20 @@ main{
   .text-init{
     display: flex;
     position: relative ;
-    width: 350px;
-    font-size: 28px;
-    bottom: 580px;
-    left: 800px;
+    width: 450px;
+    font-size: 22px;
+    font-weight: 520;
+    bottom: 648px;
+    left: 785px;
   }
   .sub-imagenes{
-   display: flex;
-     width: 250px;
-     position: relative;
-     bottom: -50px;
-     margin-left: 300px;
-   }
-   .primero_segunda{
+    display: flex;
+    width: 250px;
+    position: relative;
+    bottom: -50px;
+    margin-left: 300px;
+  }
+  .primero_segunda{
     width: 50px;
     display: flex;
     position: relative;
@@ -452,13 +474,19 @@ main{
     border-radius: 8px;
     margin: 5px;
   }
-
+  
   /*ESTO SON LAS NOTAS DEL PRODUCTO*/
+  .calificacion_producto{
+    margin-top: -36px;
+    margin-left: -15px;
+    
+  }
   .estrellas{
     display: flex;
     position: relative ;
     color: #febd68;
-    font-size: 18px;
+    font-size: 13px;
+    padding: -7px;
     bottom: 603px;
     left: 830px;
   }
@@ -466,10 +494,10 @@ main{
   .down{
     display: flex;
     position: relative ;
-    
     font-size: 12px;
     bottom: 603px;
     left: 837px;
+    color: rgb(201, 201, 201);
   }
   .calificaciones{
     display: flex;
@@ -498,30 +526,32 @@ color: rgb(255, 255, 255);
   .informacion{
     display: flex;
     position: relative ;
-    bottom: 585px;
-    left: 800px;
+    bottom: 617px;
+    font-size: 13px;
+    font-weight: 500;
+    left: 941px;
   }
   .lo{
     display: flex;
     position: relative ;
-    bottom: 642px;
+    bottom: 638px;
     left: 800px;
   z-index: -1;
-    height: 33px;
-    background-color: #222f3d;
-
-    width: 140px;
+    height: 28px;
+    background-color: #39577a;
+    width: 130px;
   }
   .calificaciones:hover{
     color: rgb(255, 136, 0);
-    text-decoration: solid;
+    text-decoration: underline;
 
   }
+  
   .calificacion{
     display: flex;
     position: relative ;
    
-    font-size: 18px;
+    font-size: 16px;
     bottom: 580px;
     left: 800px;
   }
@@ -573,4 +603,102 @@ color: rgb(255, 255, 255);
     border: 1px solid rgb(165, 165, 165);
     border-radius: 8px;
     margin: 5px;
+  }
+  /*GATOOO PROPAGANDA*/
+  .gato-propaganda{
+    width: 100%;
+   position: relative;
+    
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.962);
+    border-bottom: solid 1px rgb(203, 203, 203);
+  }
+  .informacion-subgato{
+    font-size: 12px;
+    font-weight: bold;
+    width: 720px;
+    margin-left: 325px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .subgato{
+    
+   margin-left: 260px;
+   position: relative;
+  }
+  .segundaestrella{
+    margin-left:1060px ;
+    position: relative;
+    display: flex;
+    margin-top:-20px ;
+    color: #febd68;
+    font-size: 13px;
+  }
+  .ind{
+    display: flex;
+    margin-left:20px;
+    margin-top: -12px;
+    font-size: 12px;
+    position: relative;
+    color: gray;
+  }
+  .precio{
+    font-size: 22px;
+    color: rgb(176, 7, 7);
+    margin-left: 25px;
+    margin-top: -15px;
+  }
+  .precio2{
+    color: rgb(176, 7, 7);
+    margin-top: -15px;
+  }
+  .check{
+    margin-left: 4px;
+    position: relative;
+    display: flex;
+  }
+  .sisas{
+    margin-left: 16px;
+    position: relative;
+    margin-top: -15px;
+    color: rgb(1, 197, 203);
+    display: flex;
+  }
+  .carga{
+    display: flex;
+    position: relative;
+    margin-left: 725px;
+    top: -608px;
+    font-size: 20px;
+  }
+  .sip{
+    top: -800px;
+    display: flex;
+    position: relative;
+  }
+  .sapoooo{
+    display: flex;
+    position: absolute;
+    margin-top: 8px;
+    
+    font-size: 10px;
+    color: rgb(111, 110, 110);
+  }
+  .sapoooo:hover{
+    color: #febd68;
+  }
+  .sangana{
+    display: flex;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 8px;
+    color: rgb(110, 110, 110);
+    width: 200px;
+    font-size: 10px;
+  }
+  .sangana:hover{
+    text-decoration: underline;
   }
