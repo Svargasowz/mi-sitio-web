@@ -16,8 +16,6 @@ a {
   color: #fff;
 }
 
-
-
 /* Header or Navbar */
 header {
     width: 100%;
@@ -362,7 +360,9 @@ main{
     margin-left: 100px;
     padding: 12px;
   }
-  
+  .logo-calificacion{
+    margin-top: -38px;
+  }
   #modal{
     display: none;
   }
@@ -448,6 +448,80 @@ main{
     border-radius: 8px;
     margin: 5px;
   }
+
+  /*ESTO SON LAS NOTAS DEL PRODUCTO*/
+  .estrellas{
+    display: flex;
+    position: relative ;
+    color: #febd68;
+    font-size: 18px;
+    bottom: 603px;
+    left: 830px;
+  }
+ 
+  .down{
+    display: flex;
+    position: relative ;
+    
+    font-size: 12px;
+    bottom: 603px;
+    left: 837px;
+  }
+  .calificaciones{
+    display: flex;
+    position: relative ;
+    width: 350px;
+      font-size: 13px;
+      color: rgb(8, 169, 219);
+    bottom: 623px;
+    left: 980px;
+  }
+  .uno{
+    bottom: 575px;
+    left: 858px;
+    display: flex;
+    position: relative ;
+    color: rgb(255, 136, 0);
+  }
+  .dos{
+    bottom: 595px;
+    left: 800px;
+    display: flex;
+    position: relative ;
+color: rgb(255, 255, 255);
+
+  }
+  .informacion{
+    display: flex;
+    position: relative ;
+    bottom: 585px;
+    left: 800px;
+  }
+  .lo{
+    display: flex;
+    position: relative ;
+    bottom: 642px;
+    left: 800px;
+  z-index: -1;
+    height: 33px;
+    background-color: #222f3d;
+
+    width: 140px;
+  }
+  .calificaciones:hover{
+    color: rgb(255, 136, 0);
+    text-decoration: solid;
+
+  }
+  .calificacion{
+    display: flex;
+    position: relative ;
+   
+    font-size: 18px;
+    bottom: 580px;
+    left: 800px;
+  }
+  /*fin de las notas del producto*/
  /*ESTO son las imagenes del modal*/
  .imagenes{
    display: flex;
