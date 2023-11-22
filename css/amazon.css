@@ -392,6 +392,9 @@ main{
   
   
   /*INICIO DE PAGINA COMO SE VE */
+
+
+  /*CORRECCION*/
   .imagen_prin{
     width: 540px;
     position: relative;
@@ -421,11 +424,12 @@ main{
   .text-init{
     display: flex;
     position: relative ;
-    width: 450px;
+    width: 350px;
     font-size: 22px;
     font-weight: 520;
     bottom: 648px;
     left: 785px;
+    
   }
   .sub-imagenes{
     display: flex;
@@ -701,4 +705,127 @@ color: rgb(255, 255, 255);
   }
   .sangana:hover{
     text-decoration: underline;
+  }
+  .derecha{
+    width: 700px;
+  }
+  .menu{
+    
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    margin-left: 1270px;
+    padding: 20px;
+    margin-top: -850px;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 20px;
+  }
+  .preciomenu{
+    
+    width: 280px;
+    height: 50px;
+  }
+  .menuprepri{
+    display: flex;
+    position: relative;
+  }
+  .valor{
+    margin-left:35px;
+    font-size: 2em;
+    margin-top: -30px;
+  }.sub-valor{
+    margin-left:55px;
+    margin-top: -35px;
+  }
+  .dato{
+    margin-left:80px;
+    margin-top: -18px;
+  }
+  .dato-menu{
+    
+    width: 260px;
+    height: 45px;
+    color: #878787;
+  }
+  .lugar{
+    width: 260px;
+    height: 20px;
+    
+    color: rgb(29, 194, 219);
+  }
+  .chispas{
+    font-size: 10px;
+    margin-left: 5px;
+    color: rgb(187, 185, 185);
+  }
+  .entrega{
+    width: 260px;
+    height: 75px;
+    position: relative;
+    
+    font-size: 15px;
+  }
+  .entrega1{
+
+  }
+  .entrega2{
+  font-weight: bold;
+    margin-top: -20px;
+    margin-left: 75px;
+  }
+  .entrega4{
+    color: green
+  }
+  .ubicacion{
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 35px;
+  }
+  .ubicacion1{
+    color: rgb(29, 194, 219);
+    margin-left: 10px;
+  }
+  .ubicacion1:hover{
+    color: rgb(219, 162, 29);
+  }
+  .detalle{
+    color: rgb(29, 194, 219);
+  }
+  .detalle:hover{
+    color: rgb(219, 162, 29);
+  }
+  .disponible{
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .canti{
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .can{
+    border-radius: 6px;
+    width: 100px;
+    box-shadow: 0px 2px 0px 0px rgb(194, 193, 193);
+  }
+  .botones{
+    margin-left: 10px;
+  }
+  .boton1{
+    position: relative;
+    background-color:gold;
+    height: 35px;
+    border-radius: 20px;
+    width: 220px;
+    border: none;
+  }
+  .boton2{
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    margin-top: 10px;
+    height: 35px;
+    width: 220px;
+    background-color: rgb(255, 136, 0);
   }
