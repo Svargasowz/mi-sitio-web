@@ -15,12 +15,12 @@ var abrir = document.getElementById("abrir");
 var abrir = document.getElementById("abrir");
 var puesto = document.getElementById("puesto");
 var quitado = document.getElementById("quitado");
+var down = document.getElementById("down")
 
 abrir.addEventListener("click",function(){
     modal.style.display="block";
     console.log("Hola");
 })
-
 cerrar.addEventListener("click",function(){
     modal.style.display="none";
     console.log("Hola");
@@ -75,3 +75,11 @@ n6.addEventListener("click",function(){
         abrir.src = n10.src
         setActive(n10)
     })
+
+down.addEventListener("click",function(){
+    modal.style.display="block";
+    console.log("Hola");
+    
+    modal.style.display="none";
+    console.log("Hola");
+})
