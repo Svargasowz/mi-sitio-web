@@ -16,6 +16,7 @@ var abrir = document.getElementById("abrir");
 var puesto = document.getElementById("puesto");
 var quitado = document.getElementById("quitado");
 var down = document.getElementById("down")
+var calificaciones_total = document.getElementById("calificaciones_total")
 
 abrir.addEventListener("click",function(){
     modal.style.display="block";
@@ -77,9 +78,6 @@ n6.addEventListener("click",function(){
     })
 
 down.addEventListener("click",function(){
-    modal.style.display="block";
-    console.log("Hola");
-    
-    modal.style.display="none";
+    calificaciones_totales.style.display="block";
     console.log("Hola");
 })

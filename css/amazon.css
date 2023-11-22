@@ -827,4 +827,25 @@ color: rgb(255, 255, 255);
     width: 220px;
     background-color: rgb(255, 136, 0);
   }
-  ete{}
+  .calificaciones_totales{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: -480px;
+    margin-top: -200px;
+    display: none;
+  }
+  .triangulo{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #ff0000;
+    margin-left: -350px;
+    margin-top: -339px;
+    display: none;
+  }
+  
