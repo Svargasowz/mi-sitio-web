@@ -402,35 +402,6 @@ main{
     display: flex;
     
   }
-  .tienda{
-    
-      display: flex;
-      position: relative ;
-      width: 350px;
-      font-size: 19px;
-      color: rgb(8, 169, 219);
-      bottom: 580px;
-      left: 788px;
-  }
-  .tienda_text{
-    color: rgb(8, 169, 219);
-    margin-top: -55px;
-    font-size: 15px;
-  }
-  .tienda_text:hover{
-    color: rgb(255, 136, 0);
-    text-decoration: solid;
-  }
-  .text-init{
-    display: flex;
-    position: relative ;
-    width: 350px;
-    font-size: 22px;
-    font-weight: 520;
-    bottom: 648px;
-    left: 785px;
-    
-  }
   .sub-imagenes{
     display: flex;
     width: 250px;
@@ -479,86 +450,7 @@ main{
     margin: 5px;
   }
   
-  /*ESTO SON LAS NOTAS DEL PRODUCTO*/
-  .calificacion_producto{
-    margin-top: -36px;
-    margin-left: -15px;
-    
-  }
-  .estrellas{
-    display: flex;
-    position: relative ;
-    color: #febd68;
-    font-size: 13px;
-    padding: -7px;
-    bottom: 603px;
-    left: 830px;
-  }
- 
-  .down{
-    display: flex;
-    position: relative ;
-    font-size: 12px;
-    bottom: 603px;
-    left: 837px;
-    color: rgb(201, 201, 201);
-  }
-  .calificaciones{
-    display: flex;
-    position: relative ;
-    width: 350px;
-      font-size: 13px;
-      color: rgb(8, 169, 219);
-    bottom: 623px;
-    left: 980px;
-  }
-  .uno{
-    bottom: 575px;
-    left: 858px;
-    display: flex;
-    position: relative ;
-    color: rgb(255, 136, 0);
-  }
-  .dos{
-    bottom: 595px;
-    left: 800px;
-    display: flex;
-    position: relative ;
-color: rgb(255, 255, 255);
-
-  }
-  .informacion{
-    display: flex;
-    position: relative ;
-    bottom: 617px;
-    font-size: 13px;
-    font-weight: 500;
-    left: 941px;
-  }
-  .lo{
-    display: flex;
-    position: relative ;
-    bottom: 638px;
-    left: 800px;
-  z-index: -1;
-    height: 28px;
-    background-color: #39577a;
-    width: 130px;
-  }
-  .calificaciones:hover{
-    color: rgb(255, 136, 0);
-    text-decoration: underline;
-
-  }
   
-  .calificacion{
-    display: flex;
-    position: relative ;
-   
-    font-size: 16px;
-    bottom: 580px;
-    left: 800px;
-  }
   /*fin de las notas del producto*/
  /*ESTO son las imagenes del modal*/
  .imagenes{
@@ -710,13 +602,12 @@ color: rgb(255, 255, 255);
     width: 700px;
   }
   .menu{
-    
     width: 280px;
     height: 500px;
     position: absolute;
-    margin-left: 1270px;
+    left: 1280px;
     padding: 20px;
-    margin-top: -850px;
+    margin-top: -970px;
     border: 1px solid rgb(115, 115, 115);
     border-radius: 20px;
   }
@@ -848,4 +739,147 @@ color: rgb(255, 255, 255);
     margin-top: -339px;
     display: none;
   }
+  /*===================================================================*/
+  .principal2{
+    width: 380px;
+    height: 370px;
+    left: 790px;
+    position: relative;
+    top: -600px;
+    padding: 2px;
+  }
+  .texto_principal2{
+    
+    display: flex;
+    position: relative ;
+    width: 370px;
+    font-size: 22px;
+    font-weight: 520; 
+  }
+  .empresa{
+    color: rgb(8, 169, 219);
+    font-size: 15px;
+    
+    margin-top: 5px;
+  }
+  .empresa-color{
+    color: rgb(8, 169, 219);
+    text-decoration: solid;
+  }
+  .empresa-color:hover{
+    color: rgb(255, 149, 0);
+    text-decoration: solid;
+  }
+  .producto-informacion{
+    
+    margin-top: 5px;
+    display: inline-flex;
+    font-size: 14px;
+  }
+  .producto-numero{
+    margin-right: 5px;
+  }
+  .abajo{
+    font-size: 9px;
+    margin-left: 2px;
+    color: #000000;
+  }
+  .starts{
+    color: #febd68;
+  }
+  .opiniones{
+    color: rgb(102, 199, 232);
+  }
+  .opiniones:hover{
+    color: #f8991c;
+  }
+  .store{
+    background-color: #000;
+    padding: 2.5px;
+    display: inline-flex;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .storeA{
+    color: #f3f3f3;
+  }
+  .storeB{
+    color: #f8991c;
+  }
+  .storeInfo{
+    
+    display: inline-flex;
+  }
+  .textStoreInfo{
+    font-size: 13px;
+    display: inline-flex;
+  }
+  .compras{
+    font-size: 12.5px;
+    margin-top: 6px;
+  }
   
+  .cantidadDescuento{
+    margin-top: 8px;
+    display: inline-flex;
+  }
+  .descuentropri{
+    color: rgb(255, 30, 0);
+    font-size: 22px;
+  }
+  .descuentoseg{
+    color: rgb(255, 30, 0);
+    font-size: 22px;
+    margin-left:5px ;
+  }
+  .descuentotre{
+    font-size: 14px;
+  }
+  .descuentoCua{
+   font-size: 28px;
+   margin-top: -4px;
+  }
+  .descuentoCin{
+    font-size: 13px;
+  }
+  .recomendaciones{
+    display: inline-flex;
+    font-size: 15px;
+    color: #878787;
+  }
+  .recomendaciones_text{
+   margin-top: -3px;
+  }
+  .recomendaciones_pre{
+    text-decoration-line: line-through;
+    font-size: 12px;
+    margin-bottom: -2px;
+  }
+  .entregas{
+    font-size: 14px;
+    display: inline-flex;
+  }
+  .entregas_tex{
+    color: #3d3e3e;
+    display: inline-flex;
+  }
+  .link_detalles{
+    display: inline-flex;
+  }
+  .entregas_link{
+    color: #307e7e;
+    display: inline-flex;
+  }
+  .entregas_link:hover{
+    color: rgb(247, 156, 10);
+    display: inline-flex;
+  }
+  .feliz{
+    display: inline-flex;
+    font-size: 8px;
+    margin-top: 8px;
+    padding-left: 5px;
+  }
+  .descuentos{
+    margin-top: 8px;
+  }
