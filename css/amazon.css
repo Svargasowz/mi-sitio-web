@@ -718,27 +718,8 @@ main{
     width: 220px;
     background-color: rgb(255, 136, 0);
   }
-  .calificaciones_totales{
-    background-color: red;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin-left: -480px;
-    margin-top: -200px;
-    display: none;
-  }
-  .triangulo{
-    position: relative;
-    width: 0;
-    height: 0;
-    border-right: 20px solid transparent;
-    border-top: 20px solid transparent;
-    border-left: 20px solid transparent;
-    border-bottom: 20px solid #ff0000;
-    margin-left: -350px;
-    margin-top: -339px;
-    display: none;
-  }
+  
+  
   /*===================================================================*/
   .principal2{
     width: 380px;
@@ -883,3 +864,150 @@ main{
   .descuentos{
     margin-top: 8px;
   }
+  .calificaciones_totales{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: -480px;
+    border: 1px solid black;
+    margin-top: -169px;
+    position: absolute;
+    display: none;
+    
+  }
+  .triangulo{
+    width: 10px;
+    height: 5px;
+    border-left: 11px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 14px solid rgb(0, 0, 0);
+    margin-top: -900px;
+  
+    position: absolute;
+    margin-left: 137px;
+    margin-top: -14px;
+    display: block;
+   
+  }
+  .triangulo::before {
+  content: '';
+  position: absolute;
+  top: -2px; /* Ajustar según el grosor del borde */
+  left: -10px; /* Ajustar según el grosor del borde */
+  width: 0;
+  
+  height: 0;
+  border-left: 12px solid transparent; /* Ajustar según el grosor del borde */
+  border-right: 12px solid transparent; /* Ajustar según el grosor del borde */
+  border-bottom: 18px solid rgb(255, 255, 255); /* Color del borde */
+}
+.estrella {
+  color: rgb(255,164,28);
+  font-size: 2em;
+}
+.box-estrellas {
+  display: flex;
+  flex-direction: row;
+  display: block;
+}
+.barra {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 5px;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 10px;
+  display: block;
+  overflow:hidden;
+  margin-left:80px ;
+  display: inline-flex;
+  text-align: center;
+}
+.grafica-barras {
+  margin-top: 50px;
+  display: block;
+}
+.barra-1-puntaje, .barra-2-puntaje, .barra-3-puntaje,
+.barra-4-puntaje, .barra-5-puntaje {
+  background-color: rgb(255, 132, 0);
+  width: 0px;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+  transition: width 1s;
+  text-align: center;
+}
+/* .barra-1-puntaje, .barra {
+  background-color: rgb(255,164,28); */
+  /* width: 165px; */
+/*     height: 30px;
+} */
+.xx{
+  font-size: 16px;
+  color: rgb(0, 255, 204);
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 280px;
+  font-weight:900;
+}
+.xx:hover{
+  color: rgb(255, 140, 0);
+  transition: 1s;
+}
+.miPapa{
+  display: none;
+}
+.starts1{
+  color: #febd68;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.a{
+position: absolute;
+
+width: 100px;
+height: 330px;
+margin-top: -190px;
+margin-left: -588px;
+}
+.aa{
+  position: absolute;
+  
+  width: 100px;
+height: 340px;
+margin-top: -190px;
+margin-left: -172px;
+}
+.aaa{
+  position: absolute;
+  width: 400px;
+height: 100px;
+margin-top: -289px;
+margin-left: -500px;
+}
+.aaaa{
+  position: absolute;
+ 
+  width: 500px;
+  height: 100px;
+  margin-top: 140px;
+  margin-left: -610px;
+}
+.np{
+  color: black;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 5px;
+}
+.hola{
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+  margin-left: -200px;
+  margin-top: 36px;
+}
+.holasi{
+  margin-top: 6px;
+  position: absolute;
+}

@@ -9,14 +9,42 @@ var n6 = document.getElementById("n6");
 var n7 = document.getElementById("n7");
 var n8 = document.getElementById("n8");
 var n9 = document.getElementById("n9");
+var papa = document.getElementById("papa")
 var n10 = document.getElementById("n10");
+var xx = document.getElementById("xx");
 var img_modal = document.getElementById("img_modal");
-var abrir = document.getElementById("abrir");
 var abrir = document.getElementById("abrir");
 var puesto = document.getElementById("puesto");
 var quitado = document.getElementById("quitado");
 var down = document.getElementById("down")
+var calificaciones_totales = document.getElementById("calificaciones_totales")
 var calificaciones_total = document.getElementById("calificaciones_total")
+var fait = document.getElementById("fait")
+var fait2 = document.getElementById("fait2")
+let puntuacion5 = document.getElementById("puntuacion5");
+let puntuacion4 = document.getElementById("puntuacion4");
+let puntuacion3 = document.getElementById("puntuacion3");
+let puntuacion2 = document.getElementById("puntuacion2");
+let puntuacion1 = document.getElementById("puntuacion1");
+
+var a =document.getElementById("a");
+var aa =document.getElementById("aa");
+var aaa =document.getElementById("aaa");
+var aaaa =document.getElementById("aaaa");
+
+
+let barra1Puntaje = document.getElementById("barra1Puntaje");
+let barra2Puntaje = document.getElementById("barra2Puntaje");
+let barra3Puntaje = document.getElementById("barra3Puntaje");
+let barra4Puntaje = document.getElementById("barra4Puntaje");
+let barra5Puntaje = document.getElementById("barra5Puntaje");
+
+let porcentaje5 = 0;
+let porcentaje4 = 0;
+let porcentaje3 = 0;
+let porcentaje2 = 0;
+let porcentaje1 = 0;
+let buttonGraficar = document.getElementById("buttonGraficar");
 
 abrir.addEventListener("click",function(){
     modal.style.display="block";
@@ -77,7 +105,197 @@ n6.addEventListener("click",function(){
         setActive(n10)
     })
 
-down.addEventListener("click",function(){
+
+fait.addEventListener("mouseover",function(){
     calificaciones_totales.style.display="block";
     console.log("Hola");
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+    parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+    parseInt(puntuacion1.value);
+let porcentaje5 = (puntuacion5.value * 0 / totalVotantes);
+let porcentaje5Grafica = porcentaje5 * 0;
+barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+/* Grafica 4 */
+let porcentaje4 = (puntuacion4.value * 0 / totalVotantes);
+let porcentaje4Grafica = porcentaje4 * 0;
+barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+/* Grafica 3 */
+let porcentaje3 = (puntuacion3.value * 0 / totalVotantes);
+let porcentaje3Grafica = porcentaje3 * 0;
+barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+/* Grafica 2 */
+let porcentaje2 = (puntuacion2.value * 0 / totalVotantes);
+let porcentaje2Grafica = porcentaje2 * 2;
+barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+/* Grafica 1 */
+let porcentaje1 = (puntuacion1.value * 0 / totalVotantes);
+let porcentaje1Grafica = porcentaje1 * 0;
+barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
+
+
+});
+a.addEventListener("mouseover", function(){
+    calificaciones_totales.style.display = "none";
+    console.log("Adiós");
+
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+    parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+    parseInt(puntuacion1.value);
+let porcentaje5 = (puntuacion5.value * 0 / totalVotantes);
+let porcentaje5Grafica = porcentaje5 * 0;
+barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+/* Grafica 4 */
+let porcentaje4 = (puntuacion4.value * 0 / totalVotantes);
+let porcentaje4Grafica = porcentaje4 * 0;
+barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+/* Grafica 3 */
+let porcentaje3 = (puntuacion3.value * 0 / totalVotantes);
+let porcentaje3Grafica = porcentaje3 * 0;
+barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+/* Grafica 2 */
+let porcentaje2 = (puntuacion2.value * 0 / totalVotantes);
+let porcentaje2Grafica = porcentaje2 * 2;
+barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+/* Grafica 1 */
+let porcentaje1 = (puntuacion1.value * 0 / totalVotantes);
+let porcentaje1Grafica = porcentaje1 * 0;
+barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
+
+});
+aa.addEventListener("mouseover", function(){
+    calificaciones_totales.style.display = "none";
+    console.log("Adiós");
+
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+    parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+    parseInt(puntuacion1.value);
+let porcentaje5 = (puntuacion5.value * 0 / totalVotantes);
+let porcentaje5Grafica = porcentaje5 * 0;
+barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+/* Grafica 4 */
+let porcentaje4 = (puntuacion4.value * 0 / totalVotantes);
+let porcentaje4Grafica = porcentaje4 * 0;
+barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+/* Grafica 3 */
+let porcentaje3 = (puntuacion3.value * 0 / totalVotantes);
+let porcentaje3Grafica = porcentaje3 * 0;
+barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+/* Grafica 2 */
+let porcentaje2 = (puntuacion2.value * 0 / totalVotantes);
+let porcentaje2Grafica = porcentaje2 * 2;
+barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+/* Grafica 1 */
+let porcentaje1 = (puntuacion1.value * 0 / totalVotantes);
+let porcentaje1Grafica = porcentaje1 * 0;
+barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
+
+});
+aaa.addEventListener("mouseover", function(){
+    calificaciones_totales.style.display = "none";
+    console.log("Adiós");
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+    parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+    parseInt(puntuacion1.value);
+let porcentaje5 = (puntuacion5.value * 0 / totalVotantes);
+let porcentaje5Grafica = porcentaje5 * 0;
+barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+/* Grafica 4 */
+let porcentaje4 = (puntuacion4.value * 0 / totalVotantes);
+let porcentaje4Grafica = porcentaje4 * 0;
+barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+/* Grafica 3 */
+let porcentaje3 = (puntuacion3.value * 0 / totalVotantes);
+let porcentaje3Grafica = porcentaje3 * 0;
+barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+/* Grafica 2 */
+let porcentaje2 = (puntuacion2.value * 0 / totalVotantes);
+let porcentaje2Grafica = porcentaje2 * 2;
+barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+/* Grafica 1 */
+let porcentaje1 = (puntuacion1.value * 0 / totalVotantes);
+let porcentaje1Grafica = porcentaje1 * 0;
+barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
+    
+    
+});
+aaaa.addEventListener("mouseover", function(){
+    calificaciones_totales.style.display = "none";
+    console.log("Adiós");
+
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+    parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+    parseInt(puntuacion1.value);
+let porcentaje5 = (puntuacion5.value * 0 / totalVotantes);
+let porcentaje5Grafica = porcentaje5 * 0;
+barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+/* Grafica 4 */
+let porcentaje4 = (puntuacion4.value * 0 / totalVotantes);
+let porcentaje4Grafica = porcentaje4 * 0;
+barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+/* Grafica 3 */
+let porcentaje3 = (puntuacion3.value * 0 / totalVotantes);
+let porcentaje3Grafica = porcentaje3 * 0;
+barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+/* Grafica 2 */
+let porcentaje2 = (puntuacion2.value * 0 / totalVotantes);
+let porcentaje2Grafica = porcentaje2 * 2;
+barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+/* Grafica 1 */
+let porcentaje1 = (puntuacion1.value * 0 / totalVotantes);
+let porcentaje1Grafica = porcentaje1 * 0;
+barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
+
+});
+
+
+
+fait2.addEventListener("mouseover", function() {
+    /* PENDIENTE VALIDAR EL INGRESO DE NUMEROS */
+    /* Grafica 5 */
+    let totalVotantes = parseInt(puntuacion5.value) + parseInt(puntuacion4.value) +
+                        parseInt(puntuacion3.value) + parseInt(puntuacion2.value) + 
+                        parseInt(puntuacion1.value);
+    let porcentaje5 = (puntuacion5.value * 100 / totalVotantes);
+    let porcentaje5Grafica = porcentaje5 * 2;
+    barra1Puntaje.style.width = porcentaje5Grafica.toString() + "px";
+
+    /* Grafica 4 */
+    let porcentaje4 = (puntuacion4.value * 100 / totalVotantes);
+    let porcentaje4Grafica = porcentaje4 * 2;
+    barra2Puntaje.style.width = porcentaje4Grafica.toString() + "px";
+
+    /* Grafica 3 */
+    let porcentaje3 = (puntuacion3.value * 100 / totalVotantes);
+    let porcentaje3Grafica = porcentaje3 * 2;
+    barra3Puntaje.style.width = porcentaje3Grafica.toString() + "px";
+
+    /* Grafica 2 */
+    let porcentaje2 = (puntuacion2.value * 100 / totalVotantes);
+    let porcentaje2Grafica = porcentaje2 * 2;
+    barra4Puntaje.style.width = porcentaje2Grafica.toString() + "px";
+
+    /* Grafica 1 */
+    let porcentaje1 = (puntuacion1.value * 100 / totalVotantes);
+    let porcentaje1Grafica = porcentaje1 * 2;
+    barra5Puntaje.style.width = porcentaje1Grafica.toString() + "px";
 })
